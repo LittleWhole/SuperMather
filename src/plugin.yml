@@ -1,0 +1,25 @@
+name: SuperMather
+version: 1.0
+main: SuperMather
+commands:
+  add:
+    usage: /add <addend1> <addend2>
+    description: Add two numbers
+  subtract:
+    usage: /subtract <minuend> <subtrahend>
+    description: Subtract two numbers
+  multiply:
+    usage: /multiply <factor1> <factor2>
+    description: Multiply two numbers
+  divide:
+    usage: /divide <dividend> <divisor>
+    description: Divide two numbers
+  # quadratic:
+    # usage: /quadratic <a> <b> <c>
+    # description: Solve for roots (solutions) of a quadratic equation
+  sqrt:
+    usage: /sqrt <number>
+    description: Find the square root of a number
+  exponent:
+    usage: /exponent <base> <exponent>
+    description: Find the exponent of a number
