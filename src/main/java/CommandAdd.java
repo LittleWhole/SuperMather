@@ -14,7 +14,8 @@ public class CommandAdd implements CommandExecutor {
                 p.sendMessage(ChatColor.RED + "Usage: " + command.getUsage());
                 return true;
             }
-            p.sendMessage(ChatColor.GOLD + "Answer:" + ChatColor.RED + " " + parseFloat(args[0]) + parseFloat(args[1]));
+            float ans = parseFloat(args[0]) + parseFloat(args[1]);
+            p.sendMessage(ChatColor.GOLD + "Answer:" + ChatColor.RED + " " + ans);
             return true;
     }
 }
